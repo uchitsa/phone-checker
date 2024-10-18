@@ -1,2 +1,3 @@
 # phone-checker
-Service for validating phone numbers
+### Service for validating phone numbers
+### Сервис валидации телефонных номеров
