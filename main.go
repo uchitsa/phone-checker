@@ -17,3 +17,7 @@ func main() {
   log.Println("Server started on 127.0.0.1:8888")
   log.Fatal(srv.ListenAndServe())
 }
+
+func pingHandler(w http.ResponseWriter, r *http.Request) {
+  w.WriteHeader(http.StatusOK)
+}
