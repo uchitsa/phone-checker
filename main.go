@@ -21,3 +21,6 @@ func main() {
 func pingHandler(w http.ResponseWriter, r *http.Request) {
   w.WriteHeader(http.StatusOK)
 }
+
+func validateHandler(w http.ResponseWriter, r *http.Request) {
+  }
