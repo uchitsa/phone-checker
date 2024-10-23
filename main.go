@@ -23,4 +23,7 @@ func pingHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func validateHandler(w http.ResponseWriter, r *http.Request) {
-  }
+}
+
+func shutdownHandler(w http.ResponseWriter, r *http.Request) {
+}
